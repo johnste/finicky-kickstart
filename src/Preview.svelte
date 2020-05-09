@@ -59,9 +59,7 @@ ${handlers}
         document.selection.empty();
       }
     } catch (ex) {}
-  }
-
-  function download() {}
+  }  
 </script>
 
 <style>
@@ -79,8 +77,7 @@ ${handlers}
 
   <fieldset>
     <legend>Generated config</legend>
-    <button on:click={copy}>Copy to clipboard</button>
-    <button on:click={download}>Download</button>
+    <button on:click={copy}>Copy to clipboard</button>    
     <Highlight class="code" language={javascript} {code} />
     <textarea class="copy-code">{code}</textarea>
   </fieldset>
