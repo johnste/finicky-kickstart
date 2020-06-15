@@ -5,7 +5,7 @@
 
   const browsers = [
     { name: "Safari", value: "Safari" },
-    { name: "Firefox", value: "Mozilla Firefox" },
+    { name: "Firefox", value: "Firefox" },
     { name: "Chrome", value: "Google Chrome" },
     { name: "Edge", value: "Microsoft Edge" },
     { name: "Brave", value: "Brave Browser" },
