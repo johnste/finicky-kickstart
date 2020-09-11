@@ -2,7 +2,7 @@
 
 ---
 
-# svelte app
+# Finicky Kickstart
 
 This is a [Svelte](https://svelte.dev) app.
 
@@ -12,13 +12,13 @@ Install the dependencies...
 
 ```bash
 cd finicky-kickstart
-npm install
+yarn install
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
@@ -55,14 +55,14 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 Install `now` if you haven't already:
 
 ```bash
-npm install -g now
+yarn install -g now
 ```
 
 Then, from within your project folder:
 
 ```bash
 cd public
-now deploy --name my-project
+yarn deploy --name my-project
 ```
 
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
@@ -72,12 +72,12 @@ As an alternative, use the [Now desktop client](https://zeit.co/download) and si
 Install `surge` if you haven't already:
 
 ```bash
-npm install -g surge
+yarn install -g surge
 ```
 
 Then, from within your project folder:
 
 ```bash
-npm run build
+yarn run build
 surge public my-project.surge.sh
 ```
