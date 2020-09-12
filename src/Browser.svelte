@@ -2,6 +2,7 @@
   //import { Icon, Button, Checkbox, Menu, Menuitem } from "svelte-mui";
 
   export let value;
+  export let id;
 
   const browsers = [
     { name: "Safari", value: "Safari" },
@@ -20,7 +21,7 @@
   $: value = selected !== "custom" ? selected : custom;
 </script>
 
-<select name="browser" required bind:value={selected}>
+<select name="browser" required bind:value={selected} id={id}>
   {#each browsers as browser}
     <option value={browser.value} selected={selected === browser.value}>
       {browser.name}

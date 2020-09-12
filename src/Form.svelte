@@ -35,9 +35,9 @@
 
   <fieldset>
     <legend>General</legend>
-    <label>
+    <label for="defaultBrowser">
       Default browser
-      <Browser bind:value={defaultBrowser} />
+      <Browser bind:value={defaultBrowser} id="defaultBrowser"/>
     </label>
     <ul>
       <li>
